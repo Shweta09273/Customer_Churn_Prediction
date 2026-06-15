@@ -1,3 +1,4 @@
+import joblib
 import pandas as pd
 
 from sklearn.model_selection import train_test_split
@@ -98,6 +99,7 @@ rf = RandomForestClassifier(
 )
 
 rf.fit(X_train, y_train)
+joblib.dump(rf, "customer_churn_model.pkl")
 
 rf_pred = rf.predict(X_test)
 
