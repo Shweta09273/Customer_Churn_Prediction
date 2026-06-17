@@ -1,4 +1,18 @@
+
 # Customer Churn Prediction
+
+## Overview
+
+Customer Retention Analytics & Churn Prediction System is a machine learning project that predicts whether a customer is likely to churn or stay.
+
+The application provides:
+
+- Churn Prediction
+- Churn Probability Score
+- Risk Classification
+- Retention Recommendations
+- Prediction History Dashboard
+- Interactive Streamlit
 
 ## Project Overview
 
@@ -117,8 +131,28 @@ Random Forest feature importance identifies the most influential features affect
 - Model Deployment using Flask/Streamlit
 
 ---
+# Customer Retention Analytics & Churn Prediction System
 
-## Author
-SHWETA SINGH
-BTECH CSE
-ABESIT GHAZIABAD
+Developed By: Shweta Singh
+
+## Features
+- Customer Churn Prediction
+- Churn Probability Score
+- Risk Classification
+- Retention Recommendations
+- Prediction History
+- Business Dashboard
+
+## Tech Stack
+- Python
+- Streamlit
+- Pandas
+- Scikit-Learn
+- Matplotlib
+
+## Run Project
+
+pip install -r requirements.txt
+
+streamlit run app.py
+
